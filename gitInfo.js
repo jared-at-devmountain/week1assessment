@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'git is a version control software that helps enhance the development process by making collaboration, backing up code, and version control much smoother'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = "website where you can push git repositories and share them"
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+const init = {
+    description: "creates a git repository at your current directory/folder location",
+    code: "git init",
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description: "copies an existing repository at the specified location",
+    code: "git clone <URL>",
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,11 @@
 */
 
 //CODE HERE
+const status = {
+    description: "prints the status of the git repository you are currently in",
+    code: "git status",
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +73,10 @@
 */
 
 //CODE HERE
+const add = {
+    description: "stages files to be committed",
+    code: "git add .",
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +85,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: "saves a snapshot, called a commit, of all the staged changes",
+    code: "git commit -m \"<your message>\"",
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +97,7 @@
 */
 
 //CODE HERE
+const push = {
+    description: "sends repo changes to another repo location",
+    code: "git push",
+}
